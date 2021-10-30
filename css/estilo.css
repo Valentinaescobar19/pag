@@ -1,0 +1,625 @@
+@font-face {font-family: "Avenir Next";src: url("../fonts/Avenir Next.ttc")format("truetype");}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=Raleway:ital,wght@1,100&display=swap');
+
+
+
+
+
+body {background-color: #f5f1da;}
+
+header {background-color:#808c6c;
+   padding: 2%;
+     height: 17vh;
+    display: flex;
+  justify-content: center; }
+
+
+nav 
+{ margin-top: 0%;
+    height: 8vh;
+     background-color: #587850;
+     display: flex;
+     justify-content:stretch;
+     align-items: center;
+     padding: 2px 100px;
+    }
+
+#contenedorprimero
+{background-color: #e3dfc8;
+margin: 2% ;
+padding: 10%;
+height: 27vh;
+
+}
+
+.row
+{display: flex;
+flex-wrap: wrap;}
+section
+ {background-color: #e3dfc8;
+margin: 2%;
+padding: 1%;
+
+ }
+aside {background-color:#e3dfc8;
+    height: 23,5vh;
+     margin: 2%;
+      padding: 1%;
+
+}
+#contenedor {background-color:#808c6c ; 
+  padding: 2%;
+     height: 17vh;
+     width: 94.9vw;
+    display: flex;
+  justify-content: center; }
+
+
+#contenedor2 {background-color: #e3dfc8;
+   margin: 2% ; 
+   padding: 8%; 
+  height: 50vh;
+  display: flex;
+justify-content: center;}
+footer {background-color: #808c6c; padding: 7%;
+  height: 30vh;
+  top: 34px;
+}
+
+
+.video {  width: 550px; height: 280px;
+   right: -5%; border:2px solid #f5f1da;}
+#imagen{width: 250px; height: 250px; 
+border-radius: 50%;
+border:4px;
+}
+
+
+.text {color:black; text-align: center; font-family:sans-serif; font-size:300%;}
+.textoclaro {color: #587850; font-family:
+    inherit; font-size: 1rem; text-align: start;  }
+.preparacion {color:black; text-align: center; 
+ ; font-size:300%; font-size: 2,5rem;
+  font-family: "Avenir Next"}
+    
+
+
+
+
+
+.parrafos 
+  {
+background-color: #e3dfc8;
+color: black;
+font-size: 1rem;
+font-family: 'Dancing Script';
+top: 600px;
+width: 50%;
+text-align: left;
+margin-top: -200px;
+}
+.text {text-align: left;
+  font-size: 1.5rem;}
+.parrafos2 {
+  font-family:inherit;
+  color: black;
+  font-size: 100%;
+  width: 600px;
+  margin: 2%;
+  font-family: 'EB Garamond', serif;
+
+  font-size: 1rem;}
+.mapa { width: 300px; height: 280px; background-position: right; position: relative;
+  right: -13%; border:2px solid #f5f1da; position:static;}
+  .icono {position: fixed;
+    top: 75%;
+    right: 1%;
+    width: 100px; height: 100px;
+  }
+  .iconoi{   width: 70px; height: 70px;}
+  .iconot{   width: 70px; height: 70px;}
+  .CONTACTOS {font-family: Arial; font: size 3px;; text-align: right; text-indent: 9%; float: none;}
+  .boton {background-color: #b49b0f;}
+  .btn-three {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+  .btn-three:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+  }
+  .btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+  .botones{
+    background-color: orangered;
+    transition: background-color .5s;
+  }
+
+  .botones:hover{
+    background-color: gold;
+  }
+
+  .titulo{
+    color: black;
+    transition: color .5s;
+    text-align: center; 
+    font-size:300%;
+    font-size: 2,5rem;
+    font-family: "Avenir Next"
+  }
+
+  .titulo:hover{
+    color: #e3dfc8;
+    text-align: center; 
+    font-family:sans-serif; 
+    font-size:300%;}
+    
+  .foto{
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+   
+  }
+    .foto:hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+        transform: translateY(-2px);
+    }
+    .foto:active{
+        box-shadow: inset 0px 3px 7px #3c4fe0;
+        transform: translateY(2px);
+    }
+  
+    .icono:hover {
+      transform: translateY(-20px);
+  }
+  .icono:active{
+      box-shadow: inset 0px 3px 7px #3c4fe0;
+      transform: translateY(2px);
+    }
+    @media (min-width: 200px) and (max-width: 767px) 
+    { body {background-color: #f5f1da;}
+  
+      header {background-color:#ff9900;
+         padding: 2%;
+           height: 17vh;
+          display: flex;
+        justify-content: center; }
+      
+        #imagen{width: 250px; height: 250px; 
+          border-radius: 50%;
+          border:4px 
+          solid #f5f1da;  
+          left: 40em;
+          overflow: hidden;
+          display: flex;
+          justify-content:left;
+          display: none
+          ;}
+      nav 
+      { margin-top: 0%;
+          height: 8vh;
+           background-color: #f5b664;
+           display: flex;
+           justify-content:stretch;
+           align-items: center;
+           padding: 2px 100px;
+          }
+      
+    
+      
+      .row
+      {display: flex;
+      flex-wrap: wrap;}
+      section
+       {background-color: #e3dfc8;
+        display:none;}
+      aside {background-color:#e3dfc8;
+          height: 23,5vh;
+          width: 39,55vw;
+          float: right;
+           margin: 2%;
+            padding: 1%;
+            display: flex;
+      justify-content:flex-end;
+      align-items:flex-end;
+      
+      }
+      #contenedor {background-color:#ff9900 ; 
+        padding: 2%;
+           height: 17vh;
+           width: 94.9vw;
+          display: flex;
+        justify-content: center; }
+      
+      
+      #contenedor2 {background-color: #e3dfc8;
+         margin: 2% ; 
+         padding: 8%; 
+        height: 50vh;
+        display: flex;
+      justify-content: center;}
+      footer {background-color: #ff9900; padding: 7%;
+        height: 17vh;
+        display: flex;
+      justify-content: center;}
+      
+      .video {  width: 200px; height: 280px;
+         right: -5%; border:2px solid #f5f1da;}
+    
+         #imagen{width: 100px; height: 100px; 
+          border-radius: 50%;
+          border:4px 
+          solid #f5f1da;  
+          left: 40em;
+          overflow: hidden;
+          display: flex;
+          justify-content:left;
+          margin-top: -3%
+          ;}
+      .text {color:black; text-align: center; font-family:sans-serif;font-size: 12px;}
+      .textoclaro {color: #ff9900; font-family:
+          inherit; font-size: 200%; text-align: start;  }
+      .preparacion {color:black; text-align: center; 
+       ; font-size:300%; font-size: 2,5rem;
+        font-family: "Avenir Next"}
+          
+        .parrafos 
+        {
+      background-color: #e3dfc8;
+      color: black;
+      font-size: 12px;
+      font-family: 'Dancing Script';
+      width: 100%;
+      text-align: left;
+      margin-top: 2rem;
+      }
+      .text {text-align: left;
+      font-size: 1rem;
+     }
+      .parrafos2 {
+        font-family:inherit;
+        color: black;
+        font-size: 5px;
+        font-family: 'EB Garamond', serif;
+      }
+      .mapa { width: 600px; height: 280px; background-position: right; position: relative;
+        right: -5%; border:2px solid #f5f1da;
+      display: none;}
+        .icono {position: fixed;
+          top: 75%;
+          right: 1%;
+          width: 100px; height: 100px;
+          overflow: hidden;
+        }
+        .icono {position: fixed;
+          top: 75%;
+          right: 1%;
+          width: 100px; height: 100px;
+          display: none;
+        }
+        .iconoi{   width: 70px; height: 70px;}
+        .iconot{   width: 70px; height: 70px;}
+        .CONTACTOS {font-family: Arial; font: size 3px;; text-align: right; text-indent: 9%; float: none;}
+    }
+        .titulo{
+          color: black;
+          transition: color .5s;
+          text-align: center; 
+         font-size: 50px;
+          font-family: "Avenir Next"
+        }
+      
+        .titulo:hover{
+          color: #e3dfc8;
+          text-align: center; 
+          font-family:sans-serif; 
+          font-size:  12px;
+          }
+  
+          @media (min-width: 768px) and (max-width: 991px) 
+          { body {background-color: #9e4b4b;}
+        
+            header {background-color:#6b2020;
+               padding: 2%;
+                 height: 17vh;
+                display: flex;
+              justify-content: center; }
+            
+              #imagen{width: 250px; height: 250px; 
+                border-radius: 50%;
+                border:4px 
+                solid #a56767;  
+                left: 40em;
+                overflow: hidden;
+                display: flex;
+                justify-content:left;
+                display: none
+                ;}
+            nav 
+            { margin-top: 0%;
+                height: 8vh;
+                 background-color: #310101;
+                 display: flex;
+                 justify-content:stretch;
+                 align-items: center;
+                 padding: 2px 100px;
+                }
+            
+          
+#contenedorprimero
+{background-color: #500808;
+margin: 2% ;
+padding: 10%;
+height: 27vh;}
+            
+            .row
+            {display: flex;
+            flex-wrap: wrap;}
+            section
+             {background-color: #a56767;
+              display:none;}
+            aside {background-color:#a56767;
+                height: 23,5vh;
+                width: 39,55vw;
+                float: right;
+                 margin: 2%;
+                  padding: 1%;
+                  display: flex;
+            justify-content:flex-end;
+            align-items:flex-end;
+            
+            }
+            #contenedor {background-color:#6b2020 ; 
+              padding: 2%;
+                 height: 17vh;
+                 width: 94.9vw;
+                display: flex;
+              justify-content: center; }
+            
+            
+            #contenedor2 {background-color: #a56767;
+               margin: 2% ; 
+               padding: 8%; 
+              height: 50vh;
+              display: flex;
+            justify-content: center;}
+            footer {background-color: #6b2020; padding: 7%;
+              height: 17vh;
+              display: flex;
+            justify-content: center;}
+            
+            .video {  width: 700px; height: 300px;
+               right: -5%; border:2px solid #a56767;}
+          
+               #imagen{width: 100px; height: 100px; 
+                border-radius: 50%;
+                border:4px 
+                solid #110101;  
+                left: 40em;
+                overflow: hidden;
+                display: flex;
+                justify-content:left;
+                margin-top: -3%
+                ;}
+            .text {color:rgb(255, 255, 255); text-align: center; font-family:sans-serif;font-size: 12px;}
+            .textoclaro {color: #a30000; font-family:
+                inherit; font-size: 200%; text-align: start;  }
+            .preparacion {color:rgb(255, 255, 255); text-align: center; 
+             ; font-size:300%; font-size: 2,5rem;
+              font-family: "Avenir Next"}
+                
+              .parrafos 
+              {
+            background-color: #500808;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: 'Dancing Script';
+            width: 100%;
+            text-align: left;
+            margin-top: 2rem;
+            }
+            .text {text-align: left;
+            font-size: 1rem;
+           }
+            .parrafos2 {
+              font-family:inherit;
+              color: black;
+              font-size: 5px;
+              font-family: 'EB Garamond', serif;
+            }
+            .mapa { width: 600px; height: 280px; background-position: right; position: relative;
+              right: -5%; border:2px solid #f5f1da;
+            display: none;}
+              .icono {position: fixed;
+                top: 75%;
+                right: 1%;
+                width: 100px; height: 100px;
+                overflow: hidden;
+              }
+              .icono {position: fixed;
+                top: 75%;
+                right: 1%;
+                width: 100px; height: 100px;
+                display: none;
+              }
+              .iconoi{   width: 70px; height: 70px;}
+              .iconot{   width: 70px; height: 70px;}
+              .CONTACTOS {font-family: Arial; font: size 3px;; text-align: right; text-indent: 9%; float: none;}
+          }
+              .titulo{
+                color: rgb(255, 255, 255);
+                transition: color .5s;
+                text-align: center; 
+               font-size: 50px;
+                font-family: "Avenir Next"
+              }
+            
+              .titulo:hover{
+                color: #b36060;
+                text-align: center; 
+                font-family:sans-serif; 
+                font-size:  50px;
+                }
+                @media (min-width: 991px) and (max-width: 1500px) { body {background-color: #f5f1da;}
+
+                header {background-color:#808c6c;
+                   padding: 2%;
+                     height: 17vh;
+                    display: flex;
+                  justify-content: center; }
+                
+                
+                nav 
+                { margin-top: 0%;
+                    height: 8vh;
+                     background-color: #587850;
+                     display: flex;
+                     justify-content:stretch;
+                     align-items: center;
+                     padding: 2px 100px;
+                    }
+                
+                #contenedorprimero
+                {background-color: #e3dfc8;
+                margin: 2% ;
+                padding: 10%;
+                height: 27vh;
+                
+                }
+                
+                .row
+                {display: flex;
+                flex-wrap: wrap;}
+                section
+                 {background-color: #e3dfc8;
+                margin: 2%;
+                padding: 1%;
+                
+                 }
+                aside {background-color:#e3dfc8;
+                    height: 23,5vh;
+                     margin: 2%;
+                      padding: 1%;
+                
+                }
+                #contenedor {background-color:#808c6c ; 
+                  padding: 2%;
+                     height: 17vh;
+                     width: 94.9vw;
+                    display: flex;
+                  justify-content: center; }
+                
+                
+                #contenedor2 {background-color: #e3dfc8;
+                   margin: 2% ; 
+                   padding: 8%; 
+                  height: 50vh;
+                  display: flex;
+                justify-content: center;}
+                footer {background-color: #808c6c; padding: 7%;
+                  height: 30vh;
+                  top: 34px;
+                }
+                
+                
+                .video {  width: 550px; height: 280px;
+                   right: -5%; border:2px solid #f5f1da;}
+
+                #imagen{width: 250px; height: 250px; 
+                border-radius: 50%;
+                border:4px 
+                solid #f5f1da;  
+                float: right;
+               
+                ;}
+                #img6{
+                  float: right;
+                }
+                
+                
+                .text {color:black; text-align: center; font-family:sans-serif; font-size:300%;}
+                .textoclaro {color: #587850; font-family:
+                    inherit; font-size: 1rem; text-align: start;  }
+                .preparacion {color:black; text-align: center; 
+                 ; font-size:300%; font-size: 2,5rem;
+                  font-family: "Avenir Next"}
+                    
+                
+                
+                
+                
+                
+                .parrafos 
+                  {
+                background-color: #e3dfc8;
+                color: black;
+                font-size: 1rem;
+                font-family: 'Dancing Script';
+                top: 600px;
+                width: 50%;
+                text-align: left;
+                margin-top: 50px;
+                }
+                .text {text-align: left;
+                  font-size: 1.1rem;}
+                .parrafos2 {
+                  font-family:inherit;
+                  color: black;
+                  font-size: 100%;
+                  width: 600px;
+                  margin: 2%;
+                  font-family: 'EB Garamond', serif;
+                
+                  font-size: 1rem;}
+                .mapa { width: 300px; height: 280px; background-position: right; position: relative;
+                  right: -13%; border:2px solid #f5f1da; position:static;}
+                  .icono {position: fixed;
+                    top: 75%;
+                    right: 1%;
+                    width: 100px; height: 100px;
+                  }
+                  .iconoi{   width: 70px; height: 70px;}
+                  .iconot{   width: 70px; height: 70px;}
+                  .CONTACTOS {font-family: Arial; font: size 3px;; text-align: right; text-indent: 9%; float: none;}
+                  .boton {background-color: #b49b0f;}
+
+                }
